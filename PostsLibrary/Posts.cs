@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Posts
+namespace PostsLibrary
 {
     public class Posts
     {
@@ -16,7 +16,7 @@ namespace Posts
             PostsName = postsName;
             CommentCount = commentsNumber;
         }
-
+         
         public void IncreaseCommentsNumber()
         {
             int currentCommentsCount = CommentCount;
